@@ -1,7 +1,7 @@
 body {
     background-color: beige;
 }
-.headerhtml {
+.Headerhtml {
     font-family: Montserrat, sans-serif;
 }
 h1 {
@@ -17,10 +17,10 @@ a {
 footer {
     color: red;
 }
-.topnav {
+#topnav {
     background-color: lightblue;
     text-align: center;
 }
-.topnavigation {
+#topnavigation {
     text-align: center;
 }
