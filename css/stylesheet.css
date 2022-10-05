@@ -14,3 +14,10 @@ a {
 footer {
     color: red;
 }
+.topnav {
+    background-color: lightblue;
+    text-align: center;
+}
+.topnavigation {
+    text-align: center;
+}
