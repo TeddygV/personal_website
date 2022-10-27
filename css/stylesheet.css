@@ -3,19 +3,32 @@ body {
 }
 .Headerhtml {
     font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: center;
 }
+
+.firstppic {
+    grid-template-columns: 4;
+
+}
+
 h1 {
-    color:green;
+    color:purple;
+    font-size: 40px;
+    grid-template-rows: 1fr 1fr;
 }
 h2 {
-    color: red;
+    color: blue;
 }
 a {
-    color: green;
+    color: purple;
 }
 
 footer {
-    color: red;
+    text-align: center;
+    background-color: lightblue;
+    clear: both;
+    
 }
 #topnav {
     background-color: lightblue;
