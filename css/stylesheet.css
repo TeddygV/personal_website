@@ -1,39 +1,37 @@
+.first {
+    font-family: 'Montserrat', sans-serif;
+  }
 body {
-    background-color: beige;
+      background-color: #f5f5dc;
+  }
+.header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+  }
+h1 {
+    font-size: 40px;
+    grid-template-rows: 1fr 1fr;
+  }
+.firstp-ul {
+    list-style-type: none;
 }
-.Headerhtml {
-    font-family: Montserrat, sans-serif;
+.heading2 {
+    color: black;
+}
+
+.image1{
     display: flex;
     justify-content: center;
 }
-
-.firstppic {
-    grid-template-columns: 4;
-
-}
-
-h1 {
-    color:purple;
-    font-size: 40px;
-    grid-template-rows: 1fr 1fr;
-}
-h2 {
-    color: blue;
-}
-a {
-    color: purple;
-}
-
-footer {
+.div1{
     text-align: center;
-    background-color: lightblue;
-    clear: both;
-    
-}
-#topnav {
-    background-color: lightblue;
-    text-align: center;
-}
-#topnavigation {
-    text-align: center;
+  }
+footer{
+   text-align: center;
+   background-color: lightblue;
+  }
+  .section{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
 }
