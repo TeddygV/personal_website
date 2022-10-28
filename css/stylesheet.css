@@ -16,6 +16,13 @@ h1 {
 .firstp-ul {
     list-style-type: none;
 }
+.secondpul {
+    list-style-type: none;
+}
+
+.thirdpul {
+    list-style-type: none;
+}
 .heading2 {
     color: black;
 }
@@ -25,13 +32,41 @@ h1 {
     justify-content: center;
 }
 .div1{
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
+
+.div2{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+  }
+
+.div3{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+  }
+
+
 footer{
    text-align: center;
    background-color: lightblue;
   }
+
   .section{
     display: grid;
     grid-template-columns: 2fr 2fr;
+}
+
+#topnav {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+#topnavigation {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
 }
