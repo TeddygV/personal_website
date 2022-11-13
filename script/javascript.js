@@ -4,10 +4,10 @@ const courseList = [
     { code: "ACIT 1620", name: " Web Fundamentals" }
 ];
 
-let course = prompt("Enter a 4 digit number: ");
+let course = prompt("Enter a 4 digit number:");
 
-while (course.lenght != 4) {
-    console.log("Invalid course code");
+while (course.length != 4) {
+    console.log("Invalid input");
     course = prompt("Enter a 4 digit number:");
 }
 
@@ -18,10 +18,9 @@ for (let i = 0; i < courseList.length; i++) {
         found = true;
         console.log(`Yes I am taking the course: ${course} - ${courseList[i].name}`);
     }
-
 }
 
 if (!found) {
     courseList.push({ code: course, name: null });
-    console.log("Added new course to the list");
+    console.log("Added new course to list");
 }
