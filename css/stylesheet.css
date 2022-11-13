@@ -54,7 +54,7 @@ footer{
    background-color: lightblue;
   }
 
-  .section{
+.section{
     display: grid;
     grid-template-columns: 2fr 2fr;
 }
@@ -69,4 +69,54 @@ footer{
     display: flex;
     justify-content: center;
     background-color: lightblue;
+}
+
+.nav-courses{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style-type: none;
+}
+footer{
+ text-align: center;
+ background-color: lightblue;
+}
+.secondp-grid{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.grid-ulcp{
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  padding-left: 2px;
+  row-gap: 5px;
+}
+header{
+  margin-bottom: 10px;
+}
+.coursesp {
+  margin-top: 0%;
+}
+.list-border{
+  border-bottom: solid black;
+
+}
+.list-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+@media (min-width: 600px ) {
+    .list-border {
+      border-bottom: solid 2px black;
+    }
+    .list-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    .nav-courses{
+      flex-direction: row;
+      justify-content: center;
+      justify-content: space-evenly;
+    }
 }
